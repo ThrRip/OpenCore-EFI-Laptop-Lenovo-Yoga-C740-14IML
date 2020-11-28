@@ -21,7 +21,9 @@
 ## Problems still exist
 - ~~Stuck on `[ PCI configuration end, bridges 2, devices 20 ]`~~
 > Resolved after making the SSDTs in right order.
-- Stuck on `apfs_module_start... Previous shutdown cause...`
+- ~~Stuck on `apfs_module_start... Previous shutdown cause...`~~
+> Not problems of EFI, resolved after reflash the USB Installer.
+- Stuck on `IOG flags ... Generation from SMC report as ... IOPPF ...`
 ## Author
 ThrRip  
 Website (Chinese only): [ThrRip's Personal Homepage](https://thrrip.space)
