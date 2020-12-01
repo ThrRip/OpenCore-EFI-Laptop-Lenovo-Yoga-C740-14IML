@@ -4,7 +4,6 @@
 
 
 ## Details of the PC Used in Debugging
-
 | Items       | Model               |
 | ----------- | ------------------- |
 | Laptop      | Lenovo YOGA C740-14IML |
@@ -24,6 +23,7 @@
 - ~~Stuck on `apfs_module_start... Previous shutdown cause...`~~
 > Not problems of EFI, resolved after reflash the USB Installer.
 - Stuck on `IOG flags ... Generation from SMC report as ... IOPPF ...`
+
 ## Author
 ThrRip  
 Website (Chinese only): [ThrRip's Personal Homepage](https://thrrip.space)
