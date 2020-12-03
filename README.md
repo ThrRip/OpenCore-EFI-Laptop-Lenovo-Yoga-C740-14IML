@@ -9,20 +9,24 @@
 | Laptop      | Lenovo YOGA C740-14IML |
 | Motherboard | Lenovo (Unknown)    |
 | CPU         | Intel Core i5-10210U |
-| RAM         | (Unknown) 8G*2 2667 MHz |
+| RAM         | SK Hynix 8G*2 2667 MHz |
 | Hard Disk   | WDC PC SN730 SDBPNTY-512G-1101 512G M.2 NVMe SSD |
 | GPU         | Intel Graphics UHD 630 |
-| Sound Card  | Intel SST           |
+| Sound Card  | Realtek ALC285 & Intel SST |
 | Ethernet    | Realtek USB GbE Family Controller |
 | WLAN        | Intel Wi-Fi 6 AX201 160MHz |
 | Monitor     | Lenovo Display FHD  |
 
 ## Problems still exist
 - ~~Stuck on `[ PCI configuration end, bridges 2, devices 20 ]`~~
-> Resolved after making the SSDTs in right order.
+  > Resolved after making the SSDTs in right order.
 - ~~Stuck on `apfs_module_start... Previous shutdown cause...`~~
-> Not problems of EFI, resolved after reflash the USB Installer.
-- Stuck on `IOG flags ... Generation from SMC report as ... IOPPF ...`
+  > Not problems of EFI, resolved after reflash the USB Installer.
+- ~~Stuck on `IOG flags ... Generation from SMC report as ... IOPPF ...`~~
+  > Resolved after fixing SSDTs, adding some kernel extensions, etc.
+- Trackpad and touch screen failed to drive
+- ~~Sound Card failed to drive~~
+  > AppleALC.kext with layout-id 61 is OK.
 
 ## Author
 ThrRip  
