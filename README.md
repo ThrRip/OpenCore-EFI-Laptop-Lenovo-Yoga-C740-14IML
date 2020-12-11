@@ -27,6 +27,7 @@
 - Trackpad and touch screen failed to drive
 - ~~Sound Card failed to drive~~
   > AppleALC.kext with layout-id 61 is OK.
+- Unable to enter macOS 11.0.1 Installer (Whether it is in-system upgrade or USB upgrade)
 
 ## Author
 ThrRip  
