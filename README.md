@@ -24,8 +24,8 @@
   > Not problems of EFI, resolved after reflash the USB Installer.
 - ~~Stuck on `IOG flags ... Generation from SMC report as ... IOPPF ...`~~
   > Resolved after fixing SSDTs, adding some kernel extensions, etc.
-- ~~Tackpad and ~~touch screen failed to drive
-  > Resolved after switching to SSDT-XOSI, adding patching of XOSI, patching VoodooI2CPCIController.cpp, but touch screen still doesn't work.
+- The touch screen failed to drive
+  > Resolved after switching to SSDT-XOSI, adding patching of XOSI, patching VoodooI2CPCIController.cpp **(thanks @MJYINMC)**, but touch screen still doesn't work.
 - ~~Sound Card failed to drive~~
   > AppleALC.kext with layout-id 61 is OK.
 - Unable to enter macOS 11.0.1 Installer (Whether it is in-system upgrade or USB upgrade)
