@@ -58,7 +58,7 @@
 				<key>Comment</key>
 				<string>SSDT-TPL0.aml</string>
 				<key>Enabled</key>
-				<true/>
+				<false/>
 				<key>Path</key>
 				<string>SSDT-TPL0.aml</string>
 			</dict>
@@ -66,7 +66,7 @@
 				<key>Comment</key>
 				<string>SSDT-TPD0.aml</string>
 				<key>Enabled</key>
-				<true/>
+				<false/>
 				<key>Path</key>
 				<string>SSDT-TPD0.aml</string>
 			</dict>
@@ -74,7 +74,7 @@
 				<key>Comment</key>
 				<string>SSDT-TPL1.aml</string>
 				<key>Enabled</key>
-				<true/>
+				<false/>
 				<key>Path</key>
 				<string>SSDT-TPL1.aml</string>
 			</dict>
@@ -281,12 +281,6 @@
 				<data>CQClPg==</data>
 				<key>device-id</key>
 				<data>mz4AAA==</data>
-				<key>framebuffer-fbmem</key>
-				<data>AACQAA==</data>
-				<key>framebuffer-patch-enable</key>
-				<data>AQAAAA==</data>
-				<key>framebuffer-stolenmem</key>
-				<data>AAAwAQ==</data>
 			</dict>
 		</dict>
 		<key>Delete</key>
@@ -1008,7 +1002,7 @@
 			<key>AppleCpuPmCfgLock</key>
 			<false/>
 			<key>AppleXcpmCfgLock</key>
-			<true/>
+			<false/>
 			<key>AppleXcpmExtraMsrs</key>
 			<false/>
 			<key>AppleXcpmForceBoost</key>
