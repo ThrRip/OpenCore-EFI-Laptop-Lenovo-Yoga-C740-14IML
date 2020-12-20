@@ -31,6 +31,7 @@
 - ~~Unable to enter macOS 11.0.1 Installer (Whether it is in-system upgrade or USB upgrade)~~
   > It's able to update if you set DVMT pre-allocated by PATCHING BIOS (not set in OpenCore's config.plist). See [here](https://zhuanlan.zhihu.com/p/266400995) for the instructions and **thanks @MJYINMC**
 - Built-in microphone failed to drive
+- Wi-Fi cannot run at full speed
 
 ## Author
 ThrRip  
