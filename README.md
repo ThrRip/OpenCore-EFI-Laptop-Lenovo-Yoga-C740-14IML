@@ -24,7 +24,7 @@
   > Not problems of EFI, resolved after reflash the USB Installer.
 - ~~Stuck on `IOG flags ... Generation from SMC report as ... IOPPF ...`~~
   > Resolved after fixing SSDTs, adding some kernel extensions, etc.
-- The touch screen~~failed to drive~~ is not stable during using
+- The touch screen ~~failed to drive~~ is not stable during using
   > Resolved after switching to SSDT-XOSI, adding patching of XOSI, patching VoodooI2CPCIController.cpp **(thanks @MJYINMC)**, but touch screen ~~still doesn't work~~ only work after a sleeping.
 - ~~Sound Card failed to drive~~
   > AppleALC.kext with layout-id 61 is OK.
