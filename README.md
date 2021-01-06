@@ -3,7 +3,7 @@
 
 
 
-## Details of the PC Used in Debugging
+## Details of the PC used in debugging
 | Items       | Model               |
 | ----------- | ------------------- |
 | Laptop      | Lenovo YOGA C740-14IML |
