@@ -32,6 +32,14 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
+				<string>SSDT-EC0_OFF.aml</string>
+				<key>Enabled</key>
+				<false/>
+				<key>Path</key>
+				<string>SSDT-EC0_OFF.aml</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
 				<string>SSDT-PLUG.aml</string>
 				<key>Enabled</key>
 				<true/>
@@ -226,6 +234,8 @@
 				<false/>
 			</dict>
 		</array>
+		<key>Patch</key>
+		<array/>
 		<key>Quirks</key>
 		<dict>
 			<key>AllowRelocationBlock</key>
@@ -1393,6 +1403,8 @@
 		</dict>
 		<key>Quirks</key>
 		<dict>
+			<key>DeduplicateBootOrder</key>
+			<false/>
 			<key>ExitBootServicesDelay</key>
 			<integer>0</integer>
 			<key>IgnoreInvalidFlexRatio</key>
