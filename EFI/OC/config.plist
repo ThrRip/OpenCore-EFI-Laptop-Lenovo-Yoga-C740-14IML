@@ -32,11 +32,11 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>SSDT-EC0_OFF.aml</string>
+				<string>SSDT-EC0_Off.aml</string>
 				<key>Enabled</key>
 				<false/>
 				<key>Path</key>
-				<string>SSDT-EC0_OFF.aml</string>
+				<string>SSDT-EC0_Off.aml</string>
 			</dict>
 			<dict>
 				<key>Comment</key>
@@ -235,7 +235,8 @@
 			</dict>
 		</array>
 		<key>Patch</key>
-		<array/>
+		<array>
+		</array>
 		<key>Quirks</key>
 		<dict>
 			<key>AllowRelocationBlock</key>
@@ -1059,7 +1060,8 @@
 	<key>Misc</key>
 	<dict>
 		<key>BlessOverride</key>
-		<array/>
+		<array>
+		</array>
 		<key>Boot</key>
 		<dict>
 			<key>ConsoleAttributes</key>
@@ -1155,7 +1157,8 @@
 			<string>Optional</string>
 		</dict>
 		<key>Tools</key>
-		<array/>
+		<array>
+		</array>
 	</dict>
 	<key>NVRAM</key>
 	<dict>
