@@ -1,12 +1,13 @@
 # OpenCore-EFI-Laptop-Lenovo-Yoga-C740-14IML
- Stable and self-use OpenCore EFI files for Lenovo Yoga C740-14IML.
+Stable and self-use OpenCore EFI files for Lenovo Yoga C740-14IML.
 
-
+## Deprecation warning
+This branch is deprecated and just a temporal workaround for those who have problems to upgrade to macOS Monterey 12. The files in this branch will never update again.
 
 ## Details of the PC used in debugging
 | Items       | Model               |
 | ----------- | ------------------- |
-| Laptop      | Lenovo YOGA C740-14IML |
+| Laptop      | Lenovo Yoga C740-14IML |
 | Motherboard | Lenovo (Unknown)    |
 | CPU         | Intel Core i5-10210U |
 | RAM         | SK Hynix 8G*2 2667 MHz |
