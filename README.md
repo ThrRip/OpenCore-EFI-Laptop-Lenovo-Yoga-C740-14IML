@@ -35,7 +35,7 @@ The [main](https://github.com/ThrRip/OpenCore-EFI-Laptop-Lenovo-Yoga-C740-14IML/
 - Built-in microphone failed to drive
 - ~~Wi-Fi cannot run at full speed~~
   >  Fixed in [4c4d302](https://github.com/ThrRip/OpenCore-EFI-Laptop-Lenovo-Yoga-C740-14IML/commit/4c4d3026d4b51bca91da50043d3b8b2e989215af) with macOS Monterey 12.
-- System Preferences app crash (or freeze or throw an "Could not load ... preference pane" error) when trying to open the following panes:
+- System Preferences app crash (or freeze or throw a "Could not load ... preference pane" error) when trying to open the following panes:
   - Siri
   - Accessibility
   - Network
