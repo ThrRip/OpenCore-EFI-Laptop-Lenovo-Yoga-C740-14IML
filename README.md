@@ -2,8 +2,8 @@
 Stable and self-use OpenCore EFI files for Lenovo Yoga C740-14IML.
 
 ## About macOS Monterey 12
-The [main](https://github.com/ThrRip/OpenCore-EFI-Laptop-Lenovo-Yoga-C740-14IML/tree/main) branch of this repository has added the support for macOS Monterey 12. Since this version is still new, there could be some problems waiting for resolving for the EFI files. Feel free to download the latest preview version of my EFI files, test them, and create issues.
-> If you still want to use macOS Big Sur 11, check out the [macos-11](https://github.com/ThrRip/OpenCore-EFI-Laptop-Lenovo-Yoga-C740-14IML/tree/macos-11) branch as the files in this branch will likely not work anymore.
+The [main](https://github.com/ThrRip/OpenCore-EFI-Laptop-Lenovo-Yoga-C740-14IML/tree/main) branch of this repository has added the support for macOS Monterey 12. Since this version is still new, there could be some problems waiting for resolving for the EFI files. Feel free to download the preview version of my EFI files from the [Releases](https://github.com/ThrRip/OpenCore-EFI-Laptop-Lenovo-Yoga-C740-14IML/releases) page, test them, and create issues.
+> If you still want to use macOS Big Sur 11, check out the [macos-11](https://github.com/ThrRip/OpenCore-EFI-Laptop-Lenovo-Yoga-C740-14IML/tree/macos-11) branch as the files in this branch will likely not work on a version other that macOS Monterey 12.
 
 ## Details of the PC used in debugging
 | Items       | Model               |
