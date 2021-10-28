@@ -6,7 +6,7 @@
 ## Details of the PC used in debugging
 | Items       | Model               |
 | ----------- | ------------------- |
-| Laptop      | Lenovo YOGA C740-14IML |
+| Laptop      | Lenovo Yoga C740-14IML |
 | Motherboard | Lenovo (Unknown)    |
 | CPU         | Intel Core i5-10210U |
 | RAM         | SK Hynix 8G*2 2667 MHz |
