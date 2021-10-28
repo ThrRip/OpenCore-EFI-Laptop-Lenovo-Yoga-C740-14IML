@@ -1,5 +1,5 @@
 # OpenCore-EFI-Laptop-Lenovo-Yoga-C740-14IML
- Stable and self-use OpenCore EFI files for Lenovo Yoga C740-14IML.
+Stable and self-use OpenCore EFI files for Lenovo Yoga C740-14IML.
 
 ## Details of the PC used in debugging
 | Items       | Model               |
