@@ -1,7 +1,9 @@
 # OpenCore-EFI-Laptop-Lenovo-Yoga-C740-14IML
+
 Stable and well-tested OpenCore EFI files for Lenovo Yoga C740-14IML.
 
 ## Details of the PC used in debugging
+
 | Device      | Model               |
 | ----------- | ------------------- |
 | Laptop      | Lenovo Yoga C740-14IML |
@@ -16,13 +18,16 @@ Stable and well-tested OpenCore EFI files for Lenovo Yoga C740-14IML.
 | Display     | Lenovo Display FHD  |
 
 ## Problems
+
 ### Still exist
 - Touch screen doesn't work
   > It worked in macOS versions prior to macOS Monterey by switching to `SSDT-XOSI` from `SSDT-GPI0`, adding patching of XOSI, patching VoodooI2CPCIController.cpp **(thanks @MJYINMC)** and after a sleeping.
 - Built-in microphone doesn't work
 
+### Solved
+
 <details>
-<summary>### Solved</summary>
+<summary>Expand/Collapse</summary>
 _Sorted by discovered date, newer to older._
 
 - System Preferences app crash (or freeze or throw a "Could not load ... preference pane" error) when trying to open the following panes:
@@ -47,5 +52,6 @@ _Sorted by discovered date, newer to older._
 </details>
 
 ## Author
+
 ThrRip  
 Website (Chinese only): [ThrRip's Personal Homepage](https://thrrip.space)
