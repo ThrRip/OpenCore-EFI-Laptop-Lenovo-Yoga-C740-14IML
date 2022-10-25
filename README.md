@@ -2,6 +2,10 @@
 
 Stable and well-tested OpenCore EFI files for Lenovo Yoga C740-14IML.
 
+## Choosing the right files for your macOS version
+
+The EFI files in the [`main` branch](https://github.com/ThrRip/OpenCore-EFI-Laptop-Lenovo-Yoga-C740-14IML/tree/main) and the [latest release](https://github.com/ThrRip/OpenCore-EFI-Laptop-Lenovo-Yoga-C740-14IML/releases/latest) of this repository only support the **latest major version of macOS**. If you are on a previous macOS version, you should checkout the branch named `archive/macos-<major version>` depending on your situation. Please note that you will not get any support using files from those branches.
+
 ## Details of the machine used in debugging
 
 | Device      | Model               |
