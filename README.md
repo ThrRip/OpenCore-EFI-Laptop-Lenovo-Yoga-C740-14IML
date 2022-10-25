@@ -2,7 +2,7 @@
 
 Stable and well-tested OpenCore EFI files for Lenovo Yoga C740-14IML.
 
-## Details of the PC used in debugging
+## Details of the machine used in debugging
 
 | Device      | Model               |
 | ----------- | ------------------- |
@@ -22,7 +22,7 @@ Stable and well-tested OpenCore EFI files for Lenovo Yoga C740-14IML.
 ### Still exist
 
 - Touch screen doesn't work
-  > It worked in macOS versions prior to macOS Monterey by switching to `SSDT-XOSI` from `SSDT-GPI0`, adding patching of XOSI, patching VoodooI2CPCIController.cpp **(thanks @MJYINMC)** and after a sleeping.
+  > It worked in macOS versions prior to macOS Monterey by switching to `SSDT-XOSI` from `SSDT-GPI0`, adding XOSI patches, patching `VoodooI2CPCIController.cpp` **(thanks @MJYINMC)** and after a sleeping.
 - Built-in microphone doesn't work
 
 ### Solved
