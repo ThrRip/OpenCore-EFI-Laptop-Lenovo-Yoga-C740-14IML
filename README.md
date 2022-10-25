@@ -53,8 +53,3 @@ _Sorted by discovered date, newer to older._
   > Solved after reordering the SSDTs.
 
 </details>
-
-## Author
-
-ThrRip  
-Website (Chinese only): [ThrRip's Personal Homepage](https://thrrip.space)
