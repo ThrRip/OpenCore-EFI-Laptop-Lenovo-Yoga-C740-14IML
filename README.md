@@ -20,6 +20,7 @@ Stable and well-tested OpenCore EFI files for Lenovo Yoga C740-14IML.
 ## Problems
 
 ### Still exist
+
 - Touch screen doesn't work
   > It worked in macOS versions prior to macOS Monterey by switching to `SSDT-XOSI` from `SSDT-GPI0`, adding patching of XOSI, patching VoodooI2CPCIController.cpp **(thanks @MJYINMC)** and after a sleeping.
 - Built-in microphone doesn't work
@@ -28,6 +29,7 @@ Stable and well-tested OpenCore EFI files for Lenovo Yoga C740-14IML.
 
 <details>
 <summary>Expand/Collapse</summary>
+
 _Sorted by discovered date, newer to older._
 
 - System Preferences app crash (or freeze or throw a "Could not load ... preference pane" error) when trying to open the following panes:
@@ -49,6 +51,7 @@ _Sorted by discovered date, newer to older._
   > Solved after fixing SSDTs, adding some kernel extensions, etc.
 - Stuck on `[ PCI configuration end, bridges 2, devices 20 ]` while booting into the installer
   > Solved after reordering the SSDTs.
+
 </details>
 
 ## Author
