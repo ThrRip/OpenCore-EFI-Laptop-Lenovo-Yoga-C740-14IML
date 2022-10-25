@@ -25,9 +25,9 @@ The EFI files in the [`main` branch](https://github.com/ThrRip/OpenCore-EFI-Lapt
 
 ### Still exist
 
-- Touch screen doesn't work
+- The touch screen doesn't work
   > It worked in macOS versions prior to macOS Monterey by switching to `SSDT-XOSI` from `SSDT-GPI0`, adding XOSI patches, patching `VoodooI2CPCIController.cpp` **(thanks @MJYINMC)** and after a sleeping.
-- Built-in microphone doesn't work
+- The built-in microphone doesn't work
 
 ### Solved
 
