@@ -35,8 +35,8 @@ _Sorted by date discovered, latest to oldest._
 
 - The boot picker doesn't show up (neither when `Misc -> Boot -> PickerMode` is set to `Builtin` nor `External`)
   > Fixed by resetting NVRAM. But without knowing which entry in the boot picker is _Reset NVRAM_, some guesswork is required.
-- The touch screen doesn't work
-  > Fully fixed in [commit `db7a9ff`](https://github.com/ThrRip/OpenCore-EFI-Laptop-Lenovo-Yoga-C740-14IML/commit/db7a9ffc245359aa626bc25fc19adbdf59a663f3) (the upgrade to macOS Sonoma). It also worked in macOS versions prior to macOS Monterey by switching to `SSDT-XOSI` from `SSDT-GPI0`, adding XOSI patches, patching `VoodooI2CPCIController.cpp` **(thanks @MJYINMC)** and after a sleep. Now it works out of box.
+- The touchscreen doesn't work
+  > Fully fixed in [commit `73aa198`](https://github.com/ThrRip/OpenCore-EFI-Laptop-Lenovo-Yoga-C740-14IML/commit/73aa1988b0d57feb229e5dc266e120ae96577956). It also worked in macOS versions prior to macOS Monterey by switching to `SSDT-XOSI` from `SSDT-GPI0`, adding XOSI patches, patching `VoodooI2CPCIController.cpp` **(credit to @MJYINMC)**, and after a sleep. Now it works out of box.
 - System Preferences app crashes (or freeze or throw a "Could not load ... preference pane" error) when trying to open the following panes:
   - Siri
   - Accessibility
