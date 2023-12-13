@@ -152,17 +152,21 @@
 	<dict>
 		<key>Add</key>
 		<dict>
-			<key>PciRoot(0x0)/Pci(0x1b,0x0)</key>
-			<dict>
-				<key>layout-id</key>
-				<integer>61</integer>
-			</dict>
 			<key>PciRoot(0x0)/Pci(0x2,0x0)</key>
 			<dict>
 				<key>AAPL,ig-platform-id</key>
 				<data>CQClPg==</data>
 				<key>device-id</key>
-				<data>mz4AAA==</data>
+				<data>yJsAAA==</data>
+				<key>enable-backlight-registers-alternative-fix</key>
+				<data>AQAAAA==</data>
+				<key>enable-backlight-smoother</key>
+				<data>AQAAAA==</data>
+			</dict>
+			<key>PciRoot(0x0)/Pci(0x1f,0x3)</key>
+			<dict>
+				<key>layout-id</key>
+				<integer>61</integer>
 			</dict>
 		</dict>
 		<key>Delete</key>
@@ -905,7 +909,7 @@
 				<key>SystemAudioVolume</key>
 				<data>Rg==</data>
 				<key>boot-args</key>
-				<string>-igfxblr -igfxbls alcid=61</string>
+				<string></string>
 				<key>run-efi-updater</key>
 				<string>No</string>
 				<key>csr-active-config</key>
