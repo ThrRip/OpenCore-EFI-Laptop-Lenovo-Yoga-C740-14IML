@@ -8,17 +8,17 @@ The EFI files in the [`main` branch](https://github.com/ThrRip/OpenCore-EFI-Lapt
 
 ## Details of the machine used in debugging
 
-| Device      | Model               |
-| ----------- | ------------------- |
+| Device      | Model            |
+| ----------- | ---------------- |
 | Laptop      | Lenovo Yoga C740-14IML |
-| Motherboard | Lenovo (Unknown)    |
+| Motherboard | Lenovo (Unknown) |
 | CPU         | Intel Core i5-10210U |
 | RAM         | SK Hynix 8G\*2 2667 MHz |
 | Storage     | WDC PC SN730 SDBPNTY-512G-1101 512G M.2 NVMe SSD |
 | GPU         | Intel Graphics UHD 630 |
 | Audio Chip  | Realtek ALC285 & Intel SST |
 | Wireless    | Intel Wi-Fi 6 AX201 160MHz |
-| Display     | Lenovo Display FHD  |
+| Display     | Lenovo Display FHD |
 
 ## Problems
 
