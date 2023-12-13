@@ -801,7 +801,7 @@
 			<key>ShowPicker</key>
 			<true/>
 			<key>TakeoffDelay</key>
-			<integer>3000000</integer>
+			<integer>1000000</integer>
 			<key>Timeout</key>
 			<integer>3</integer>
 		</dict>
