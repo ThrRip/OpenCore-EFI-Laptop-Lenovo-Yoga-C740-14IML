@@ -1,0 +1,11 @@
+### macOS
+# General
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Custom folder icons
+Icon?
+
+# Thumbnails
+._*
